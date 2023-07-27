@@ -10,3 +10,5 @@ Run the commands at the root of this directory:
 ```
 stow <directory name>/
 ```
+
+If you want to remove a symlink, use the `-D` flag.
