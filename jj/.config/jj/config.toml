@@ -9,6 +9,10 @@ behavior = "drop"
 backend = "gpg"
 key = "5FB88B4C0425F58385A5C6D62958C7EFD5DCDB0D"
 
+[aliases]
+tug = ["bookmark", "move", "--from", "heads(::@- & bookmarks())", "--to", "@"]
+tug- = ["bookmark", "move", "--from", "heads(::@- & bookmarks())", "--to", "@-"]
+
 [git]
 sign-on-push = true
 
