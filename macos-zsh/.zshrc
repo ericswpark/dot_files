@@ -33,3 +33,10 @@ export PATH="/usr/local/sbin:$PATH"
 
 # yt-dlp full
 alias yt-dlp-full="yt-dlp --embed-metadata --embed-subs --embed-thumbnail --sub-langs all --write-subs"
+
+# ZSH tab completions
+fpath+=~/.zfunc
+
+# esp-rs
+alias get_esprs='. $HOME/export-esp.sh'
+export PATH="/opt/homebrew/bin:$PATH"
