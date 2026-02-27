@@ -7,7 +7,7 @@ email = "me@ericswpark.com"
 [signing]
 behavior = "drop"
 backend = "gpg"
-key = "5FB88B4C0425F58385A5C6D62958C7EFD5DCDB0D"
+key = "EC5CFCBD9D7B238842B0F5D496CECB4A9DF00B3B"
 
 [aliases]
 tug = ["bookmark", "move", "--from", "heads(::@- & bookmarks())", "--to", "@"]
